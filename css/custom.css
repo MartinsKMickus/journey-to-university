@@ -1,8 +1,97 @@
+/* Custom color variables */
+:root {
+    --primary-color: #a1f02b;
+    /* Your custom primary color */
+    --secondary-color: #fac021;
+    /* Your custom secondary color */
+    --primary-color-hover: #6ea11c;
+    --secondary-color-hover: #80610d;
+}
+
+/* Override default Bootstrap colors using custom variables */
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    color: #000;
+}
+
+.btn-secondary {
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+    color: #000;
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-color-hover);
+    /* Your custom hover color for primary buttons */
+    border-color: var(--primary-color-hover);
+    /* Optionally, modify the border color as well */
+}
+
+.btn-secondary:hover {
+    background-color: var(--secondary-color-hover);
+    /* Your custom hover color for secondary buttons */
+    border-color: var(--secondary-color-hover);
+    /* Optionally, modify the border color as well */
+}
+
 .bg-primary {
-    background-color: #21fca16e !important;
+    background-color: var(--primary-color) !important;
 }
 
 #imageContainer img {
     opacity: 1;
     transition: opacity 1s ease-in-out;
-  }
+}
+
+.gradient-box {
+    background: linear-gradient(45deg, #1cd9252f, #a1f02bc4);
+    /* padding: 20px; */
+    /* color: white; */
+    /* text-align: center; */
+}
+
+.gradient-box-b {
+    background: linear-gradient(45deg, #a1f02b, #1cd926);
+    /* padding: 20px;
+    color: white;
+    text-align: center; */
+}
+
+.scroll-indicator {
+    position: fixed;
+    bottom: 40px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 9999;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.scroll-indicator.active {
+    opacity: 1;
+}
+
+.arrow {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border: solid var(--secondary-color);
+    border-width: 0 5px 5px 0;
+    transform: rotate(45deg);
+    animation: arrowBounce 2s infinite;
+}
+
+@keyframes arrowBounce {
+    0% {
+        transform: rotate(45deg) translateX(0) translateY(0);
+    }
+
+    50% {
+        transform: rotate(45deg) translateX(15px) translateY(15px);
+    }
+
+    100% {
+        transform: rotate(45deg) translateX(0) translateY(0);
+    }
+}
