@@ -1,18 +1,23 @@
 /* Custom color variables */
 :root {
-    --primary-color: #a1f02b;
+    --primary-color: #a1f02b7d;
     /* Your custom primary color */
     --secondary-color: #fac021;
     /* Your custom secondary color */
     --primary-color-hover: #6ea11c;
     --secondary-color-hover: #80610d;
-    --bs-light: #1cd925d7;
+    --bs-light: #1cd9257d;
     --bs-light-rgb: #169c6221;
 }
 
 body {
     font-family: 'Open Sans', sans-serif;
 }
+
+.nav-link.active {
+    font-weight: bold;
+  }
+  
 
 /* Override default Bootstrap colors using custom variables */
 .btn-primary {
@@ -47,6 +52,12 @@ body {
     /* Optionally, modify the border color as well */
 }
 
+.btn-extra:hover {
+    background-color: var(--bs-light-rgb);
+    border-color: var(--bs-light-rgb);
+    color: #000;
+}
+
 .bg-primary {
     background-color: var(--primary-color) !important;
 }
@@ -64,7 +75,7 @@ body {
 }
 
 .gradient-box-sec {
-    background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
+    background: linear-gradient(45deg, var(--primary-color), var(--bs-light-rgb));
     /* padding: 20px;
     color: white;
     text-align: center; */
