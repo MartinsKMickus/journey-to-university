@@ -9,7 +9,6 @@
     integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="css/custom.css">
   <title>Healthy Evening Sport</title>
-  <script src="js/script.js" async></script>
   <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;600;700&display=swap');
@@ -23,19 +22,19 @@
 
   <nav class="navbar navbar-expand bg-primary">
     <div class="container-fluid">
-      <a class="navbar-brand m-1" href="#">Journey to University</a>
+      <a class="navbar-brand m-1" href="index.html">Journey to University</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="navbar-nav">
-        <a class="nav-link active m-1" aria-current="page" href="#">Lv</a>
-        <a class="nav-link m-1" href="#">En</a>
+        <a class="lang-btn nav-link m-1" id="lang-btn-lv" aria-label="Latviešu valoda" href="">Lv</a>
+        <a class="lang-btn nav-link m-1" id="lang-btn-en" aria-label="English language" href="">En</a>
       </div>
     </div>
   </nav>
   <div class="container" id="imageContainer">
-    <div class="container text-center">
+    <!-- <div class="container text-center">
       <div class="row m-4">
         <div class="col">
           <a href="university.html" class="btn btn-primary">Step Back</a>
@@ -47,17 +46,13 @@
           <a href="hobbies.html" class="btn btn-extra">Something More</a>
         </div>
       </div>
-    </div>
-    <h2 class="m-4">Sport</h2>
+    </div> -->
+    <h2 id="title_1" class="m-4">Sport</h2>
     <div class="container p-4 p-xl-5 border border-secondary-subtle  border-bottom-0 gradient-box">
       <div class="row">
         <div class="col-md-8 align-self-center">
-          <p class="p-sm-3">
+          <p id="text_1" class="p-sm-3">
             <b>Story is yet under construction...</b>
-            <!-- Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-            Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-            Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
-            Nulla consequat massa quis enim. -->
           </p>
         </div>
         <div class="col-md">
@@ -71,16 +66,8 @@
           <img src="..." class="img-fluid" alt="...">
         </div>
         <div class="col-md align-self-center">
-          <p class="p-sm-3">
+          <p id="text_2" class="p-sm-3">
             <b>Story is yet under construction...</b>
-            <!-- Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
-            Nullam dictum felis eu pede mollis pretium.
-            Integer tincidunt.
-            Cras dapibus. Vivamus elementum semper nisi.
-            Aenean vulputate eleifend tellus.
-            Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
-            Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet.
-            Quisque rutrum. Aenean imperdiet. -->
           </p>
         </div>
       </div>
@@ -88,14 +75,8 @@
     <div class="container p-4 p-xl-5 border border-secondary-subtle border-top-0 gradient-box">
       <div class="row">
         <div class="col-md-8 align-self-center">
-          <p class="p-sm-3">
+          <p id="text_3" class="p-sm-3">
             <b>Story is yet under construction...</b>
-            <!-- Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.
-            Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.
-            Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.
-            Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus.
-            Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.
-            Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, -->
           </p>
         </div>
         <div class="col-md">
@@ -106,17 +87,20 @@
     <div class="container text-center">
       <div class="row m-4">
         <div class="col">
-          <a href="university.html" class="btn btn-primary">Step Back</a>
+          <a id="btn_back" href="university.html" class="btn btn-primary">Step Back</a>
         </div>
         <div class="col">
-          <a href="index.html" class="btn btn-primary">To Home</a>
+          <a id="btn_home" href="index.html" class="btn btn-primary">To Home</a>
         </div>
         <div class="col-sm p-sm-0 p-2">
-          <a href="hobbies.html" class="btn btn-extra">Something More</a>
+          <a id="btn_extra" href="hobbies.html" class="btn btn-extra">Something More</a>
         </div>
       </div>
     </div>
   </div>
+  <script src="js/script.js"></script>
+  <script src="js/translations/page_7.js"></script>
+  <script src="js/language.js"></script>
 </body>
 
 </html>

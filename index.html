@@ -9,8 +9,6 @@
     integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="css/custom.css">
   <title>Journey From Home To University</title>
-  <script src="js/script.js"></script>
-  <script src="js/arrow.js"></script>
   <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;600;700&display=swap');
@@ -24,23 +22,23 @@
 
   <nav class="navbar navbar-expand bg-primary">
     <div class="container-fluid">
-      <a class="navbar-brand m-1" href="#">Journey To University</a>
+      <a class="navbar-brand m-1" href="index.html">Journey To University</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="navbar-nav">
-        <a class="nav-link active m-1" aria-current="page" href="#">Lv</a>
-        <a class="nav-link m-1" href="#">En</a>
+        <a class="lang-btn nav-link m-1" id="lang-btn-lv" aria-label="Latviešu valoda" href="">Lv</a>
+        <a class="lang-btn nav-link m-1" id="lang-btn-en" aria-label="English language" href="">En</a>
       </div>
     </div>
   </nav>
   <div class="container" id="imageContainer">
-    <h2 class="m-4">My Journey From Home To University</h2>
+    <h2 id="title_1" class="m-4">My Journey From Home To University</h2>
     <div class="container p-4 p-xl-5 border border-secondary-subtle  border-bottom-0">
       <div class="row">
         <div class="col-xl-8">
-          <p class="p-sm-3 col">
+          <p id="text_1" class="p-sm-3 col">
             There are a lot of options in our lifes and it is hard to choose the right one that suits you.
             I have chosen this path to learn new things and try to find my goal. The fascinating technologies have lured
             me in this journey, to explore this simulation, to explore life.<br>
@@ -63,15 +61,15 @@
         <div class="col-md-4">
           <img src="resources/2_opera.jpg" class="img-fluid" alt="...">
         </div>
-        <div id="scrollButton" class="align-self-center col-md-4 text-center pt-4">
-          <a href="through-door.html" class="btn btn-secondary">Begin Journey</a>
+        <div id="scrollButton" class="align-self-center col-md-4 text-center pt-md-0 pt-4">
+          <a id="btn_1" href="through-door.html" class="btn btn-secondary">Begin Journey</a>
         </div>
       </div>
     </div>
     <div class="container p-4 p-xl-5 border border-secondary-subtle border-top-0">
       <div class="row">
         <div class="col-md-8 align-self-center">
-          <h3 class="p-sm-3 col">
+          <h3 id="my_name" class="p-sm-3 col">
             Author: Mārtiņš Kristaps Mickus
           </h3>
         </div>
@@ -84,6 +82,10 @@
   <div class="scroll-indicator">
     <span class="arrow"></span>
   </div>
+  <script src="js/script.js" async></script>
+  <script src="js/arrow.js"></script>
+  <script src="js/translations/page_1.js"></script>
+  <script src="js/language.js"></script>
 </body>
 
 </html>
