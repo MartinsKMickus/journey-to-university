@@ -10,16 +10,18 @@ const translations = {
                 For other countries everything is just much closer together making great environment and there are shops everywhere,
                 but here I usually see quite empty streets and everything has its distance.
                 I think it would be better that everything is closer together.`,
-      text_3: `At arrival at the destination stop there is our huge `,
+      text_3: `When closing in to my destination I can see the National Library of Latvia.
+                Library building is with unique shape but its window cleaning cost is high.
+                In no time I have reached Stokmann and cinema next to it.`,
       btn_back: 'Step Back',
       btn_home: 'To Home',
       btn_continue: 'Continue'
     },
     lv: {
       title_1: 'Kustībā',
-      text_1: 'Pirmais teksts',
-      text_2: ``,
-      text_3: ``,
+      text_1: 'Latviskā versija vēl progresā',
+      text_2: `Latviskā versija vēl progresā`,
+      text_3: `Latviskā versija vēl progresā`,
       btn_back: 'Solis Atpakaļ',
       btn_home: 'Uz Mājām',
       btn_continue: 'Turpināt'

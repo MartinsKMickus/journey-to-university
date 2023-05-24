@@ -23,8 +23,11 @@ function shuffleImages() {
   // Swap the source attributes after a delay
   setTimeout(() => {
     const tempSrc = image1.src;
+    const tempAlt = image1.alt;
     image1.src = image2.src;
     image2.src = tempSrc;
+    image1.alt = image2.alt;
+    image2.alt = tempAlt;
 
     // Fade in the images
     image1.style.opacity = 1;

@@ -9,7 +9,14 @@ const translations = {
                 or maybe it is my home garden or any other hobby that is stopping me.
                 Indeed the real journey is more like a path that brings me to the university, this is something what the story is about.`,
         my_name: `Author: Mārtiņš Kristaps Mickus`,
-        btn_1: `Begin Journey`
+        btn_1: `Begin Journey`,
+        through_door: `Through Door`,
+        in_motion: `In Motion`,
+        stokmann: `Stokmann`,
+        walk: `Walk`,
+        university: `University`,
+        sport: `Sport`,
+        hobbies: `Hobbies`
     },
     lv: {
       title_1: 'Mans Ceļš No Mājām Līdz Latvijas Universitātei',
@@ -21,6 +28,13 @@ const translations = {
                 vai arī tas ir dārzs, vai kāds cits hobijs, kas mani aptur.
                 Tik tiešām īstais ceļojums ir kā ceļš, kas ved mani uz universitāti, par to arī ir šis stāsts.`,
       my_name: `Autors: Mārtiņš Kristaps Mickus`,
-      btn_1: `Sākt Ceļojumu`
+      btn_1: `Sākt Ceļojumu`,
+      through_door: `Caur Durvīm`,
+      in_motion: `Kustībā`,
+      stokmann: `Stokmann`,
+      walk: `Pastaiga`,
+      university: `Universitāte`,
+      sport: `Sports`,
+      hobbies: `Hobiji`
     }
   };
