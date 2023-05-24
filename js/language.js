@@ -26,10 +26,13 @@ function changeLanguage(lang) {
 
 // Check if a selected language is already stored
 const storedLanguage = localStorage.getItem('selectedLanguage');
-if (storedLanguage) {
-    // Use the stored language
+try {
     changeLanguage(storedLanguage);
 }
+catch (err) {
+    changeLanguage('lv');
+}
+// changeLanguage(storedLanguage);
 
 // Event listeners for language buttons
 document.getElementById('lang-btn-en').addEventListener('click', function (event) {
