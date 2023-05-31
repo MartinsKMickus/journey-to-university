@@ -1,6 +1,6 @@
 const translations = {
   en: {
-    title_1: `Sport On Way Back`,
+    title_1: `Way Back`,
     text_1: `Health is very importnt to most of us.
             We can eat healthy but it is also necessary to maintain active lifestyle.
             For me there are multiple options, either to walk home one day or go to swimming pool.`,
@@ -11,21 +11,21 @@ const translations = {
     stokmann: `Stokmann`,
     walk: `Walk`,
     university: `University`,
-    sport: `Sport`,
-    hobbies: `Hobbies`,
+    way_back: `Way Back`,
+    side_steps: `Side steps`,
     btn_back: 'Step Back',
     btn_home: 'To Home',
     btn_extra: 'Something Else'
   },
   lv: {
-    title_1: 'Sports Atpakaļceļā',
+    title_1: 'Ceļš Atpakaļ',
     through_door: `Caur Durvīm`,
     in_motion: `Kustībā`,
     stokmann: `Stokmann`,
     walk: `Pastaiga`,
     university: `Universitāte`,
-    sport: `Sports`,
-    hobbies: `Hobiji`,
+    way_back: `Ceļš Atpakaļ`,
+    side_steps: `Sānsoļi`,
     text_1: 'Pirmais teksts',
     btn_back: 'Solis Atpakaļ',
     btn_home: 'Uz Mājām',

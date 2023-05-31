@@ -15,8 +15,8 @@ const translations = {
     stokmann: `Stokmann`,
     walk: `Walk`,
     university: `University`,
-    sport: `Sport`,
-    hobbies: `Hobbies`
+    way_back: `Way Back`,
+    side_steps: `Side steps`
   },
   lv: {
     title_1: 'Mans Ceļš No Mājām Līdz Latvijas Universitātei',
@@ -34,7 +34,7 @@ const translations = {
     stokmann: `Stokmann`,
     walk: `Pastaiga`,
     university: `Universitāte`,
-    sport: `Sports`,
-    hobbies: `Hobiji`
+    way_back: `Ceļš Atpakaļ`,
+    side_steps: `Sānsoļi`
   }
 };
