@@ -1,7 +1,7 @@
 const translations = {
   en: {
     title_1: `Through The Door`,
-    text_1: `I don't live close to city center but there is a bus stop right next to my home.
+    text_1: `I don't live close to the city center but there is a bus stop right next to my home.
                 Although I live close to the bus stop I constantly miss it and then only option is to walk to the next stop which is at least 20 times further away.`,
     text_2: `It is pretty hard to get up on time because you probably would like to spend more time in bed rather than to do something more productive.
                 After some time though I am up and running just to not miss my bus.

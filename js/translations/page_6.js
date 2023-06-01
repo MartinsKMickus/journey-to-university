@@ -1,16 +1,17 @@
 const translations = {
   en: {
     title_1: `At University`,
-    text_1: `University often brings cozy feelings especially when you have something to do and you can take a cup of coffee from beverage machine.
-            Being here always brings back memories of first year,
-            when everything was more of a routine and there were late classes of network management course in the basement class.`,
+    text_1: `University often brings cozy feelings especially when there is something to do and I take a cup of coffee from beverage machine.
+            Being here always brings back memories of the first year.
+            Back then everything was more like a routine. My favorite classes were those down in the basement.`,
     text_2: `In path to get to the lectures there are also long corridors to walk.
-            These corridors are so long that the light from window cannot really make it to the center of them
+            These corridors are so long that the light from window cannot really make it to the building center
             as a result light looks weird in here.
-            Some time ago there were caffeteria in university itself but now it is closed so different options has to be made.
-            There is a good caffeteria called "Pusbalsī" in Latvian Academy of Music where I go at lunch break.`,
-    text_3: `When the last lectures are happening, I am thinking of what to do next.
-            There are few options: take a bus to home, walk to home or go to swimming pool`,
+            Some time ago there was cafeteria in university itself but now it is closed
+            because of that lunch option should be considered elsewhere.
+            Form my lunch break I have chosen cafeteria called "Pusbalsī" which is in Latvian Academy of Music.`,
+    text_3: `When the day is about to end I think of what to do next.
+            There are few options: take a bus to home, walk to home or go to swimming pool.`,
     through_door: `Through Door`,
     in_motion: `In Motion`,
     stokmann: `Stokmann`,

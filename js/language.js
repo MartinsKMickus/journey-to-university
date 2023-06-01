@@ -9,7 +9,7 @@ function changeLanguage(lang) {
 
     for (const translationId in translations[lang]) {
         // console.log(translationId)
-        document.getElementById(translationId).textContent = translations[lang][translationId];
+        document.getElementById(translationId).innerHTML = translations[lang][translationId];
         // const translation = translations[currentLanguage][translationId];
     }
 

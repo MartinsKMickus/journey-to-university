@@ -7,7 +7,8 @@ const translations = {
     text_2: `Other great place here is cinema where it is possible to see newest movies.
                 Now there is nearly no time to go to watch a movie, but there was time in the past.
                 One thing I can mention here, there is beet juice sold here which I tried and it was amazing,
-                also improving thinking and providing body with beneficial vitamins.`,
+                also improving thinking and providing body with
+                <a href="https://www.healthline.com/health/food-nutrition/beetroot-juice-benefits" target="_blank" rel="noopener noreferrer" class="link-secondary">benefitial vitamins</a>.`,
     text_3: `I liked the routine that was created.
                 Each Tuesday going to get a coffee was one of the favorite things to do.`,
     through_door: `Through Door`,
