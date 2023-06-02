@@ -7,9 +7,11 @@ const translations = {
     text_2: `Starting my long path back I can see the same opera house I mentioned previously.
             When walking it is also possible to see some of the little wonders of Old Town Riga.
             After crossing Stone Bridge there is straight way to Arcadia Park
-            and then I just need to follow pedestrian path to Marupe till a turn to road which brings to home.`,
-    text_3: `When not walking or taking bus to home probably I will go to swimming pool.
-            You can check more about it and take subscription for a month. (Discount if you are student)`,
+            and then I just need to follow pedestrian path to Marupe till a turn to road which brings to my home.`,
+    text_3: `When not walking or taking bus to home, probably I am going to swimming pool.
+            You can take subscription for a month:
+            <a href="https://www.olimpiskais.lv/" target="_blank" rel="noopener noreferrer" class="link-secondary">Here's their homepage</a>
+            It is great to be active, from one side it is healthy and also it is easier to fall asleep afterwards.`,
     through_door: `Through Door`,
     in_motion: `In Motion`,
     stokmann: `Stokmann`,

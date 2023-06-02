@@ -7,11 +7,12 @@ const translations = {
     text_2: `In path to get to the lectures there are also long corridors to walk.
             These corridors are so long that the light from window cannot really make it to the building center
             as a result light looks weird in here.
-            Some time ago there was cafeteria in university itself but now it is closed
-            because of that lunch option should be considered elsewhere.
-            Form my lunch break I have chosen cafeteria called "Pusbalsī" which is in Latvian Academy of Music.`,
-    text_3: `When the day is about to end I think of what to do next.
-            There are few options: take a bus to home, walk to home or go to swimming pool.`,
+            Some time ago there was cafeteria in university itself but now it is closed.
+            Lunch option should be considered elsewhere.
+            For my lunch break I have chosen cafeteria called "Pusbalsī" which is in Latvian Academy of Music.`,
+    text_3: `After lectures when the day is about to end I think of what to do next.
+            There are few options: take a bus to home, walk to home or go to swimming pool.
+            I exit the university and start my way back`,
     through_door: `Through Door`,
     in_motion: `In Motion`,
     stokmann: `Stokmann`,
