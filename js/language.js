@@ -1,11 +1,5 @@
 // Function to change the language
 function changeLanguage(lang) {
-    const translation = translations[lang];
-
-    // document.getElementById('title_1').textContent = translation.title_1;
-    // document.getElementById('image').setAttribute('alt', translation.altText);
-    // document.getElementById('lang-btn-en').textContent = translation.langBtnEn;
-    // document.getElementById('lang-btn-es').textContent = translation.langBtnEs;
 
     for (const translationId in translations[lang]) {
         // console.log(translationId)
@@ -19,6 +13,7 @@ function changeLanguage(lang) {
         langBtns[i].classList.remove('active');
     }
     document.getElementById(`lang-btn-${lang}`).classList.add('active');
+    document.documentElement.setAttribute("lang", lang);
 
     // Save the selected language to local storage
     localStorage.setItem('selectedLanguage', lang);
@@ -32,7 +27,6 @@ try {
 catch (err) {
     changeLanguage('lv');
 }
-// changeLanguage(storedLanguage);
 
 // Event listeners for language buttons
 document.getElementById('lang-btn-en').addEventListener('click', function (event) {
