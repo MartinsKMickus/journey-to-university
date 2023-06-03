@@ -2,7 +2,7 @@ const translations = {
   en: {
     title_1: `Walk`,
     text_1: `From Stokmann there are different paths to take in order to get to the university.
-                Although paths are not much but in way of all are different things to see.
+                Although paths are not much but in way of all there are different things to see or visit.
                 Decision relies on what did I want that particular day, whatever it was a drink or I just wanted to get to the university faster.`,
     text_2: `One path goes next to Wok To Walk restaurant.
                 Wok To Walk is delicious to try but it won't be something to eat regularly, firstly because it is expensive
@@ -24,7 +24,16 @@ const translations = {
   },
   lv: {
     title_1: 'Pastaiga',
-    text_1: 'Pirmais teksts',
+    text_1: `No Stokmann ir dažādi veidi, lai nokļūtu līdz universitātei.
+            Kaut gan tie nav daudz, bet katram ceļā ir dažādas vietas ko redzēt vai apmeklēt.
+            Izvēle ir atkarīga no tā, ko es gribēju tajā konkrētajā dienā, varbūt tas ir kāds dzēriens, vai es vienkārši vēlējos ātrāk nokļūt universitātē.`,
+    text_2: `One path goes next to Wok To Walk restaurant.
+                Wok To Walk is delicious to try but it won't be something to eat regularly, firstly because it is expensive
+                and also noodles are not the thing to eat all the time.
+                There is also option to choose different path and go to Narvesen in case when I wanted a drink or quick snack.`,
+    text_3: `When getting closer to University it is possible to see Latvian National Opera.
+            Opera is a huge building right in front of the university,
+            with its uniqueness it stands out from other buildings in the area.`,
     through_door: `Caur Durvīm`,
     in_motion: `Kustībā`,
     stokmann: `Stokmann`,
