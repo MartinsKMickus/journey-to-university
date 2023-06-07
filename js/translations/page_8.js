@@ -1,6 +1,6 @@
 const translations = {
   en: {
-    title_1: `Side steps In Way`,
+    title_1: `Side Steps`,
     text_1: `There are also times when I want to do something else.
             Once I had to help someone to repair their Mac and it seemed interesting to work with such operating system UI.
             That time I thought to myself is it possible to install MacOS to my Windows laptop.
@@ -20,10 +20,10 @@ const translations = {
     walk: `Walk`,
     university: `University`,
     way_back: `Way Back`,
-    side_steps: `Side steps`
+    side_steps: `Side Steps`
   },
   lv: {
-    title_1: 'Ceļā arī hobiji',
+    title_1: 'Sānsoļi',
     text_1: `Ir arī laiki, kad vēlos darīt ko citu.
             Reiz man vajadzēja palīdzēt kādam salabot Mac datoru un man šķita interesanti strādājot ar tāda veida operētājsistēmas saskarni.
             Toreiz es pie sevis nodomāju vai ir iespējams uzstādīt MacOS manam Windows klēpjdatoram.
@@ -33,7 +33,7 @@ const translations = {
             Tā kā tas bija tad, kad gāju pirmajā semestrī, tā bija līdzīga kā pieturvieta pa ceļam uz universitāti.
             Pavasara pēdējos mēnešos kā arī rudens sākumā ir arī daži mazie dārza darbi.
             Kaut gan darbi nav tik daudz, tie tomēr veido lielu daļu no manas ikdienas dzīves.`,
-    text_3: `Beigu beigās mans laiks arī tiek veltīts dažādiem hobijiem, piemēram, akvārijiem.
+    text_3: `Mans laiks arī tiek veltīts dažādiem hobijiem, piemēram, akvārijiem.
             Dažreiz jāizmet kāds līkums caur zoo vekalu, tikai lai nopirktu zivju barību.
             Viss šis ir kā mazi puzles gabaliņi, kas ietilpst manā ceļā uz Latvijas Universitāti.`,
     through_door: `Caur Durvīm`,

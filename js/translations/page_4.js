@@ -17,7 +17,7 @@ const translations = {
     walk: `Walk`,
     university: `University`,
     way_back: `Way Back`,
-    side_steps: `Side steps`,
+    side_steps: `Side Steps`,
     btn_back: 'Step Back',
     btn_home: 'To Home',
     btn_continue: 'Continue'
@@ -25,7 +25,7 @@ const translations = {
   lv: {
     title_1: 'Stokmann',
     text_1: `Kad es sāku iet universitātē, tas bija tieši pirms visi zināja kas bija Covid.
-            Bija laiks, kad es bieži apmeklēju Stokmann, lai tur kafeinīcā izdzertu izdzertu kafiju.
+            Bija laiks, kad es bieži apmeklēju Stokmann, lai tur kafeinīcā izdzertu kafiju.
             Arī bija lieliski, kad Ben&Jerry's saldējumam bija atlaide, toreiz paņēmu tos vairākus.`,
     text_2: `Cita lieliska vieta šeit ir kino, kur iespējams noskatīties jaunākās filmas.
             Tagad tam nemaz nav laika, bet kādreiz tā bija tradīcija.
