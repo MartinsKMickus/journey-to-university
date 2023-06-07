@@ -16,7 +16,7 @@ const translations = {
     walk: `Walk`,
     university: `University`,
     way_back: `Way Back`,
-    side_steps: `Side steps`,
+    side_steps: `Side Steps`,
     btn_back: 'Step Back',
     btn_home: 'To Home',
     btn_continue: 'Continue'
