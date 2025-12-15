@@ -32,8 +32,8 @@ function shuffleImages() {
     // Fade in the images
     image1.style.opacity = 1;
     image2.style.opacity = 1;
-  }, 1000); // Adjust the delay time as needed
+  }, 1618); // Adjust the delay time as needed
 }
 
 // Call the shuffleImages function at a specified time interval
-setInterval(shuffleImages, 10000); // Adjust the interval time as needed
+setInterval(shuffleImages, 4236); // Adjust the interval time as needed
